@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+body{
+    width: 700px;
+    font-family: Poppins;
+}
+
+.titulo {
+    text-align: center;
+}
+
+.informacoes{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    gap: 20px;
+    font-size: small;
+}
+
+.nome, .curso, .dataNascimento, .ultimaAtualizacao{
+    background-color: rgb(255, 157, 157);
+    padding: 10px;
+    width: 250px;
+    height: 20px;
+}
+
+.sobreMim{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin: 20px;
+    justify-content: center;
+}
+
+.rotina, .hobbies, .artistas-preferidos, .viagens{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    background-color: rgb(168, 246, 246);
+    font-size: small;
+    width: 230px;
+    height: 200px;
+    padding: 10px;
+}
+
+.rotina, .viagens{
+    background-color: rgb(186, 113, 255);
+}
+
+.botao{
+    display: flex;
+    justify-content: center;
+}
+
+
