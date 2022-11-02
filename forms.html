@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro de Carros</title>
+</head>
+<body>
+    <div>
+        <label for="modeloCarro">Modelo do carro:</label>
+        <input type="text" name="modelo" id="modeloCarro" placeholder="Ex: Uno">
+    </div>
+    <div>
+        <label for="marcaCarro">Marca do carro:</label>
+        <input type="text" name="marca" id="marcaCarro" placeholder="Ex: Renault">
+    </div>
+    <div>
+        <label for="anoCarro">Ano do carro:</label>
+        <input type="text" name="ano" id="anoCarro" placeholder="Ex: 2010">
+    </div>
+    <div>
+        <label for="kmCarro">Quilometragem do carro:</label>
+        <input type="text" name="km" id="kmCarro" placeholder="Ex: 0 km">
+    </div>
+    <div>
+        <label for="valorCarro">Valor do carro:</label>
+        <input type="text" name="valor" id="valorCarro" placeholder="Ex: R$40.000">
+    </div>
+    <div>
+        <span>Estado do carro:</span>
+        <div>
+            <label for="carroUsado">Usado</label>
+            <input type="radio" name="estadoCarro" id="carroUsado" value="usado">
+        </div>
+        <div>
+            <label for="carroNovo">Novo</label>
+            <input type="radio" name="estadoCarro" id="carroNovo" value="novo">
+        </div>
+    </div>
+    <div>
+        <span>Adicionais:</span>
+        <div>
+            <label for="arCondicionado">Ar Condicionado</label>
+            <input type="checkbox" name="adicionais" id="arCondicionado" value="ar condicionado">
+        </div>
+        <div>
+            <label for="radio">Rádio</label>
+            <input type="checkbox" name="adicionais" id="radio" value="rádio">
+        </div>
+        <div>
+            <label for="airbag">Airbag</label>
+            <input type="checkbox" name="adicionais" id="airbag" value="airbag">
+        </div>
+    </div>
+    <div>
+        <label for="finalPlaca">Final da placa:</label>
+        <select name="placa" id="finalPlaca">
+            <option value="1 e 2">1 e 2</option>
+            <option value="3 e 4">3 e 4</option>
+            <option value="5 e 6">5 e 6</option>
+            <option value="7 e 8">7 e 8</option>
+            <option value="9 e 0">9 e 0</option>
+        </select>
+    </div>
+    <div>
+        <input type="submit">
+    </div>
+</body>
+</html>
