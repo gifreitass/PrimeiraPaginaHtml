@@ -1,20 +1,19 @@
 .cabecalho{
-    background-color: red;
+    background-color: aqua;
+    width: 80vw;
     text-align: center;
-    width: 70vw;
     margin: auto;
 }
 
 .conteudo{
-    margin-top: 5vh;
     max-width: 90vw;
     margin: auto;
 }
 
-.caixa{
-    width: 40vw;
+.card{
+    width: 27.5vw;
     height: 25vh;
-    background-color: red;
-    margin: 1vw 2.5vw;
+    background-color: aqua;
+    margin: 1vw 1.25vw;
     float: left;
 }
